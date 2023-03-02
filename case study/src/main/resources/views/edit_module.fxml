@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="controllers.EditModuleController"
+            styleClass="Window">
+    <top>
+        <HBox>
+            <Label styleClass="Heading" text="Edit Module"/>
+        </HBox>
+    </top>
+    <left>
+        <fx:include source="nav_bar.fxml"/>
+    </left>
+    <center>
+         <GridPane alignment="TOP_CENTER">
+            <Label GridPane.columnIndex="0" GridPane.rowIndex="1" 
+                text="Module name"/>
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" 
+                fx:id="moduleName" 
+                styleClass="ModuleNameLength"/>
+            <Button GridPane.columnIndex="0" GridPane.rowIndex="3" text="Submit" 
+                 onAction="#handleSubmitModule" fx:id="submit" />
+        </GridPane>
+    </center>
+    <bottom>
+    </bottom>
+</BorderPane>

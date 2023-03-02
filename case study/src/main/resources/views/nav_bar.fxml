@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controllers.NavBarController"
+      style="-fx-border-color: darkgrey" fx:id="navBar">
+    <VBox styleClass="MenuBar"
+          accessibleText="Module Menu Links">
+        <Hyperlink text="Home"
+                   fx:id="returnHomeLink"
+                   onAction="#handleReturnHome"
+                   accessibleText="Return to Home Page Link"/>
+        <Hyperlink text="Add Module"
+                   fx:id="addNewModuleLink"
+                   onAction="#handleAddModule"
+                   accessibleText="Add Module Link"/>
+        <Hyperlink text="View Module"
+                   fx:id="viewModuleLink"
+                   onAction="#handleViewModules"
+                   accessibleText="View Module Link"/>
+    </VBox>
+    <VBox styleClass="MenuBar"
+          accessibleText="Quit Application Links">
+        <Hyperlink text="Quit"
+                   onAction="#handleQuitAction"
+                   accessibleText="Quit Application"/>
+    </VBox>
+</VBox>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane  xmlns:fx="http://javafx.com/fxml/1"
+             fx:controller="controllers.HomeController"
+             styleClass="Window">
+    <top>
+        <HBox>
+            <Label styleClass="Heading" fx:id="MainMenu" text="Main Menu"/>
+        </HBox>
+    </top>
+    <left>
+    </left>
+    <center>
+        <HBox styleClass="MenuScreen" accessibleText="Module Menu Links">
+            <Button text="Manager Menu" fx:id="ManagerMenu" onAction="#handleManagerMenuButton" accessibleText="Go to Manager Menu"/>
+            <Button text="Staff User Menu" fx:id="StaffUserMenu" onAction="#handleStaffUserMenuButton" accessibleText="Go to Staff User Menu"/>
+            <Button text="Quit" onAction="#handleQuitAction" accessibleText="Quit Application"/>
+        </HBox>
+    </center>
+</BorderPane>

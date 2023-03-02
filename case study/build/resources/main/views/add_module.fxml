@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="controllers.AddModuleController"
+            styleClass="Window">
+    <top>
+        <HBox>
+            <Label styleClass="Heading" text="Add Module"/>
+        </HBox>
+    </top>
+    <left>
+        <fx:include source="nav_bar.fxml"/>
+    </left>
+    <center>
+        <GridPane>
+            <Label GridPane.columnIndex="0"
+                   GridPane.rowIndex="0"
+                text="Module name"/>
+            <TextField GridPane.columnIndex="1"
+                       GridPane.rowIndex="0"
+                fx:id="moduleName" />
+        </GridPane>
+    </center>
+    <bottom>
+        <HBox>
+            <Button text="Add New Module"
+                       onAction="#handleSubmitModule"
+                       accessibleText="Add New Module Link"/>
+        </HBox>
+    </bottom>
+</BorderPane>
