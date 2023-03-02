@@ -12,7 +12,7 @@
         </HBox>
     </top>
     <left>
-        <fx:include source="nav_bar.fxml"/>
+        <fx:include source="manager_menu_nav_bar.fxml"/>
     </left>
     <center>
     </center>
