@@ -3,7 +3,7 @@ package routers;
 public enum RouteNames {
     HOME("home.fxml"),
     MANAGER_MENU("manager_menu.fxml"),
-    STAFFUSER_MENU("staffuser_menu.fxml"),
+    STAFF_MENU("staff_menu.fxml"),
 
     VIEW_STAFF("view_staff.fxml"),
     ADD_EDIT_STAFF("add_edit_staff.fxml"),

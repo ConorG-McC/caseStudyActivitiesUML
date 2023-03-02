@@ -16,7 +16,7 @@ public class HomeController{
     }
     @FXML
     private void handleStaffUserMenuButton(ActionEvent event)throws IOException {
-        Router.changeRoute(RouteNames.STAFFUSER_MENU, event);
+        Router.changeRoute(RouteNames.STAFF_MENU, event);
     }
 
     @FXML
