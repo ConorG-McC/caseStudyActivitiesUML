@@ -16,6 +16,6 @@ public class EditModuleController {
     private void handleSubmitModule(ActionEvent event) throws IOException{
         String name = moduleName.getText();
 
-        Router.changeRoute(RouteNames.SHOW_MODULES, event);
+        Router.changeRoute(RouteNames.ADD_EDIT_STAFF, event);
     }
 }

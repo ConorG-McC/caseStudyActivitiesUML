@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="controllers.ShowModuleController"
+            styleClass="Window">
+    <top>
+       <HBox>
+            <Label styleClass="Heading" text="View Skills"/>
+        </HBox>
+    </top>
+    <left>
+        <fx:include source="manager_nav_bar.fxml"/>
+    </left>
+    <center>
+        <ScrollPane GridPane.rowIndex="1">
+            <content>
+                <ListView fx:id="moduleList"/>
+            </content>
+        </ScrollPane>
+    </center>
+    <bottom>
+        <HBox>
+                <Button text="Edit Selected Module"
+                        onAction="#handleEditModule"
+                        accessibleText="Edit Module Link"/>
+        </HBox>
+    </bottom>
+</BorderPane>
