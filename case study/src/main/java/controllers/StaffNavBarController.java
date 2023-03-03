@@ -8,7 +8,7 @@ import routers.Router;
 
 import java.io.IOException;
 
-public class NavBarController {
+public class StaffNavBarController {
 
     @FXML
     private void handleReturnHome(ActionEvent event)throws IOException {
@@ -16,13 +16,18 @@ public class NavBarController {
     }
 
     @FXML
-    private void handleAddModule(ActionEvent event)throws IOException {
-        Router.changeRoute(RouteNames.ADD_MODULE, event);
+    private void handleViewUserDetails(ActionEvent event)throws IOException {
+        Router.changeRoute(RouteNames.VIEW_USER_DETAILS, event);
     }
 
     @FXML
-    private void handleViewModules(ActionEvent event)throws IOException {
-        Router.changeRoute(RouteNames.SHOW_MODULES, event);
+    private void handleEditUserDetails(ActionEvent event)throws IOException {
+        Router.changeRoute(RouteNames.EDIT_USER_DETAILS, event);
+    }
+
+    @FXML
+    private void handleViewSkills(ActionEvent event)throws IOException {
+        Router.changeRoute(RouteNames.VIEW_SKILLS, event);
     }
 
     @FXML

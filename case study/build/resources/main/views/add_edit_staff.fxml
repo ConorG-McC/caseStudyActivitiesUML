@@ -8,11 +8,11 @@
             styleClass="Window">
     <top>
        <HBox>
-            <Label styleClass="Heading" text="Modules"/>
+            <Label styleClass="Heading" text="Add/Edit Staff"/>
         </HBox>
     </top>
     <left>
-        <fx:include source="nav_bar.fxml"/>
+        <fx:include source="manager_menu_nav_bar.fxml"/>
     </left>
     <center>
         <ScrollPane GridPane.rowIndex="1">

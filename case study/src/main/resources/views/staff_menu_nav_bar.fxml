@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 
 <VBox xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="controllers.NavBarController"
+      fx:controller="controllers.StaffNavBarController"
       style="-fx-border-color: darkgrey" fx:id="navBar">
     <VBox styleClass="MenuBar"
           accessibleText="Module Menu Links">
@@ -12,14 +12,18 @@
                    fx:id="returnHomeLink"
                    onAction="#handleReturnHome"
                    accessibleText="Return to Home Page Link"/>
-        <Hyperlink text="Add Module"
-                   fx:id="addNewModuleLink"
-                   onAction="#handleAddModule"
-                   accessibleText="Add Module Link"/>
-        <Hyperlink text="View Module"
-                   fx:id="viewModuleLink"
-                   onAction="#handleViewModules"
-                   accessibleText="View Module Link"/>
+        <Hyperlink text=" View User Details"
+                   fx:id="viewUserDetailsLink"
+                   onAction="#handleViewUserDetails"
+                   accessibleText="View User Details Link"/>
+        <Hyperlink text=" Edit User Details"
+                   fx:id="editUserLink"
+                   onAction="#handleEditUserDetails"
+                   accessibleText="Edit User Link"/>
+        <Hyperlink text="View Skills"
+                   fx:id="viewSkillsLink"
+                   onAction="#handleViewSkills"
+                   accessibleText="View Skills Link"/>
     </VBox>
     <VBox styleClass="MenuBar"
           accessibleText="Quit Application Links">
