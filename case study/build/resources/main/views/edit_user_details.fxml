@@ -8,11 +8,11 @@
             styleClass="Window">
     <top>
        <HBox>
-            <Label styleClass="Heading" text="View Skills"/>
+            <Label styleClass="Heading" text="Edit User Details"/>
         </HBox>
     </top>
     <left>
-        <fx:include source="manager_nav_bar.fxml"/>
+        <fx:include source="staff_nav_bar.fxml"/>
     </left>
     <center>
         <ScrollPane GridPane.rowIndex="1">
