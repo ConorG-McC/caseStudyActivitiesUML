@@ -27,7 +27,6 @@ public class Manager extends User{
 
     //convert arrayList to array later on
     //return staffManaged.toArray(new Staff[(staffManaged.size()]);
-
     public StaffUser[] viewStaffManaged(){
         return staffManaged.toArray(new StaffUser[(staffManaged.size())]);
     }

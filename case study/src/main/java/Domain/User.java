@@ -6,7 +6,7 @@ import java.util.Objects;
 import java.util.UUID;
 
 public abstract class User {
-    private UUID UniqueID;
+    private UUID userID;
     private String userName;
     private String password;
     private SystemRole systemRole;
@@ -21,8 +21,8 @@ public abstract class User {
         this.surname = surname;
     }
 
-    public UUID getUniqueID() {
-        return UniqueID;
+    public UUID getUserID() {
+        return userID;
     }
 
     public String getUserName() {
@@ -48,7 +48,7 @@ public abstract class User {
     @Override
     public String toString() {
         return "User{" +
-                "UniqueID=" + UniqueID +
+                "userID=" + userID +
                 ", userName='" + userName + '\'' +
                 ", password='" + password + '\'' +
                 ", systemRole=" + systemRole +
@@ -62,11 +62,11 @@ public abstract class User {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
-        return Objects.equals(UniqueID, user.UniqueID);
+        return Objects.equals(userID, user.userID);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(UniqueID);
+        return Objects.hash(userID);
     }
 }

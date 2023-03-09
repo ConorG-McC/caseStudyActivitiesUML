@@ -26,7 +26,7 @@ public class MainTests {
     public static void main(String[] args) {
 
         Manager manager1 = new Manager("ConorG-McC","123", SystemRole.ADMIN, "Conor", "McCloskey");
-        StaffUser staff1 = new StaffUser("Reece","123",SystemRole.StaffUser, "Reece", "Turner", JobRole.SENIOR_DEV);
+        StaffUser staff1 = new StaffUser("ReeceT","123",SystemRole.StaffUser, "Reece", "Turner", JobRole.SENIOR_DEV);
 
         //Show Users are created
         System.out.println("Manager Details");
