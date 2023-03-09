@@ -20,14 +20,14 @@
                    fx:id="addEditStaffLink"
                    onAction="#handleAddEditStaff"
                    accessibleText="Add or Edit Staff Link"/>
-        <Hyperlink text="View Skills"
+        <Hyperlink text="View Skill"
                    fx:id="viewSkillsLink"
                    onAction="#handleViewSkills"
-                   accessibleText="View Skills Link"/>
-        <Hyperlink text="Add,Edit,Delete Skills"
+                   accessibleText="View Skill Link"/>
+        <Hyperlink text="Add,Edit,Delete Skill"
                    fx:id="addEditDeleteSkills"
                    onAction="#handleAddEditDeleteSkills"
-                   accessibleText="Add, Edit or Delete Skills"/>
+                   accessibleText="Add, Edit or Delete Skill"/>
     </VBox>
     <VBox styleClass="MenuBar"
           accessibleText="Quit Application Links">

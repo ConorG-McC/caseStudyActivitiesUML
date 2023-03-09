@@ -20,10 +20,10 @@
                    fx:id="editUserDetails"
                    onAction="#handleEditUserDetails"
                    accessibleText="Edit User Details Link"/>
-        <Hyperlink text="View User Skills"
+        <Hyperlink text="View User Skill"
                    fx:id="viewUserSkillsLink"
                    onAction="#handleViewUserSkills"
-                   accessibleText="View User Skills Link"/>
+                   accessibleText="View User Skill Link"/>
     </VBox>
     <VBox styleClass="MenuBar"
           accessibleText="Quit Application Links">
