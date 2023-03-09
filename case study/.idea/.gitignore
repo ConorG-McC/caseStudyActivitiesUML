@@ -6,3 +6,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/case study/.gradle/
+/case study/build/
+/case study/gradle/
+/case study/lib/
