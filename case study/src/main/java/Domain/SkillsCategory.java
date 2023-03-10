@@ -1,4 +1,4 @@
-package Skill;
+package Domain;
 
 public class SkillsCategory {
 }

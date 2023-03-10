@@ -5,29 +5,35 @@
 
 <VBox xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="controllers.StaffNavBarController"
-      style="-fx-border-color: darkgrey" fx:id="navBar">
+      style="-fx-border-color: white" fx:id="navBar">
     <VBox styleClass="MenuBar"
-          accessibleText="Module Menu Links">
-        <Hyperlink text="Home"
+          accessibleText="Return to Homepage Button">
+        <Button text="Home"
                    fx:id="returnHomeLink"
                    onAction="#handleReturnHome"
                    accessibleText="Return to Home Page Link"/>
-        <Hyperlink text="View User Details"
+    </VBox>
+    <VBox styleClass="MenuBar"
+          accessibleText="User Detail Buttons">
+        <Button text="View User Details"
                    fx:id="viewUserDetailsLink"
                    onAction="#handleViewUserDetails"
                    accessibleText="View User Details Link"/>
-        <Hyperlink text="Edit User Details"
+        <Button text="Edit User Details"
                    fx:id="editUserDetails"
                    onAction="#handleEditUserDetails"
                    accessibleText="Edit User Details Link"/>
-        <Hyperlink text="View User Skill"
+    </VBox>
+    <VBox styleClass="MenuBar"
+          accessibleText="User Skill Button">
+        <Button text="View User Skill"
                    fx:id="viewUserSkillsLink"
                    onAction="#handleViewUserSkills"
                    accessibleText="View User Skill Link"/>
     </VBox>
     <VBox styleClass="MenuBar"
-          accessibleText="Quit Application Links">
-        <Hyperlink text="Quit"
+          accessibleText="Quit Application Button">
+        <Button text="Quit"
                    onAction="#handleQuitAction"
                    accessibleText="Quit Application"/>
     </VBox>

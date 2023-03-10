@@ -8,7 +8,7 @@
              styleClass="Window">
     <top>
         <HBox>
-            <Label styleClass="Heading" fx:id="MainMenu" text="Main Menu"/>
+            <Label styleClass="Heading" fx:id="Home" text="Home"/>
         </HBox>
     </top>
     <left>
