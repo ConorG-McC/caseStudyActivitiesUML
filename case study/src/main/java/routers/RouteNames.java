@@ -22,7 +22,5 @@ public enum RouteNames {
     public final String location;
     private final String VIEW_PATH = "/views/";
 
-    RouteNames(String location) {
-        this.location = VIEW_PATH + location;
-    }
+    RouteNames(String location) { this.location = VIEW_PATH + location; }
 }

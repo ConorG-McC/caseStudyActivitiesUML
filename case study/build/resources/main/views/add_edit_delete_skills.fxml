@@ -8,7 +8,7 @@
             styleClass="Window">
     <top>
        <HBox>
-            <Label styleClass="Heading" text="Add Edit Delete Skills"/>
+            <Label styleClass="Heading" text="Add Edit Delete Skill"/>
         </HBox>
     </top>
     <left>
